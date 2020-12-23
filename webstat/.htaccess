@@ -1,0 +1,7 @@
+DirectoryIndex index.html
+AuthType Basic
+AuthName "/data/www/kalinaotel.rf/webstat"
+AuthUserFile /var/www/yugs/etc/106962961.passwd
+<Limit GET POST>
+	require valid-user
+</Limit>
